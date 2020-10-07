@@ -19,8 +19,7 @@ public class CollatzSequence {
             System.out.print(start + " ");
             if (start % 2 == 0) {
                 start = start / 2;
-            }
-            else {
+            } else {
                 start = 3 * start + 1;
             }
         }
